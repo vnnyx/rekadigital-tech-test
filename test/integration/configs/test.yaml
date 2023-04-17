@@ -1,0 +1,14 @@
+mysql:
+  dsn: root:@tcp(localhost:3306)/rekadigital_db_test?parseTime=true
+  pool_min: 10
+  pool_max: 100
+  idle_max: 10
+  max_idle_time_minute: 1
+  max_life_time_minute: 10
+
+redis:
+  host: localhost:6379
+
+migration:
+  source: file://migrations
+  dsn: mysql://root@tcp(localhost:3306)/rekadigital_db_test?parseTime=true

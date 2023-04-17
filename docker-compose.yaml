@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: rekadigital_password
+      MYSQL_DATABASE: rekadigital_db
+
+  redis:
+    image: redis:latest
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - ENV=deployment
+    restart: on-failure
+    depends_on:
+      - mysql
+      - redis
