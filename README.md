@@ -39,7 +39,7 @@ Desain pattern yang digunakan pada aplikasi adalah menggunakan clean architectur
 
 ## Live Demo
 
-Saya melakukan deploy pada aplikasi yang dapat dicoba melalui:
+I have deployed the application that can be tested via:
 
 `https://cloud.vnnyx.my.id/dot-api/{ENDPOINT}`
 
@@ -70,6 +70,6 @@ How to run:
 
 ## API Docs
 
-Untuk dokumentasi lengkapnya dapat dilihat melalui link berikut.
+For the full documentation, it can be accessed through the following link.
 
 [API Docs](https://documenter.getpostman.com/view/24450154/2s93XyUPEu)
