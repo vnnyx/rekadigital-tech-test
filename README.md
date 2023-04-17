@@ -42,7 +42,7 @@ Desain pattern yang digunakan pada aplikasi adalah menggunakan clean architectur
 
 I have deployed the application that can be tested via:
 
-`https://cloud.vnnyx.my.id/dot-api/{ENDPOINT}`
+`https://cloud.vnnyx.my.id/rekadigital-api/{ENDPOINT}`
 
 ## List Endpoint
 
