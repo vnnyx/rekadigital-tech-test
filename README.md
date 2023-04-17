@@ -29,8 +29,9 @@ Desain pattern yang digunakan pada aplikasi adalah menggunakan clean architectur
 
 ### Local
 
-1. run `go mod tidy`
-2. run main app with `go run main.go server`
+1. run `export ENV=local`
+2. run `go mod tidy`
+3. run main app with `go run main.go server`
 
 ### Docker
 
