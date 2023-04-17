@@ -7,7 +7,7 @@
 - Redis for caching
 - Golang ozzo-validator
 - Gomock for mock generator
-- Docker and kubernetes untuk deployment
+- Docker and kubernetes for deployment
 
 ## Design Pattern
 
