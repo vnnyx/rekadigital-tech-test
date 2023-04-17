@@ -70,6 +70,6 @@ How to run:
 
 ## API Docs
 
-For the full documentation, it can be accessed through the following link
+Untuk dokumentasi lengkapnya dapat dilihat melalui link berikut.
 
 [API Docs](https://documenter.getpostman.com/view/24450154/2s93XyUPEu)
