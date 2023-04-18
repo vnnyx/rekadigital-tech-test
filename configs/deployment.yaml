@@ -1,5 +1,5 @@
 mysql:
-  dsn: root:rekadigital_password@tcp(mysql)/rekadigital_db?parseTime=true
+  dsn: rekadigital:rekadigital_password@tcp(mysql)/rekadigital_db?parseTime=true
   pool_min: 10
   pool_max: 100
   idle_max: 10
@@ -11,4 +11,4 @@ redis:
 
 migration:
   source: file://migrations
-  dsn: mysql://root:rekadigital_password@tcp(mysql)/rekadigital_db?parseTime=true
+  dsn: mysql://rekadigital:rekadigital_password@tcp(mysql)/rekadigital_db?parseTime=true
