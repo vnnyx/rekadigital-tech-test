@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app-container
-          image: vnnyx/rekadigital-tech-test:v0.0.3
+          image: vnnyx/rekadigital-tech-test:v0.0.4
           ports:
             - containerPort: 3000
           env:
