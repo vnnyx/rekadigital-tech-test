@@ -61,5 +61,6 @@ go.work
 ### Custom
 *secret*
 *configmap*
+pv.yaml
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,go
